@@ -63,7 +63,7 @@ export default function App() {
             <div className="w-10 h-10 rounded-full bg-turquoise-500 overflow-hidden shadow-lg shadow-turquoise-200">
               <img src="https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/302094386_497028972428371_3260659726051270388_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=F7Q-_LXQnQcQ7kNvwGgUOJn&_nc_oc=Adr1018wH94xMeOpGNi_Od200bO_KRW5MHVJwXruv6sQlBcl8V28SVlW-tYjLkcNN7w&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=nw5C-HecaZ8ZYXgF-PwIig&_nc_ss=7b2a8&oh=00_Af2ViSVQZvR8SvoJuqvqqnhq4EfHypnWxgDaL5IM9gBsXg&oe=69F7C0B0" alt="Logo" className="w-full h-full object-cover" />
             </div>
-            <span className="font-brand text-3xl font-bold text-turquoise-700 tracking-tight">Lodo Sfera</span>
+            <span className="font-serif text-xl font-black text-turquoise-700 tracking-tight">Lodo Sfera</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-widest text-slate-500">
             <a href="#menu" className="hover:text-turquoise-600 transition-colors">Specjały</a>
@@ -84,7 +84,7 @@ export default function App() {
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="inline-block px-4 py-2 bg-turquoise-100 rounded-full text-turquoise-700 text-xs font-bold uppercase tracking-widest">
               🍦 Najlepsza lodziarnia w Starachowicach
             </motion.div>
-            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="font-brand text-6xl sm:text-7xl md:text-9xl font-black text-slate-900 leading-[0.85] tracking-tighter">
+            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="font-serif text-6xl sm:text-7xl md:text-9xl font-black text-slate-900 leading-[0.85] tracking-tighter">
               Orzeźwienie <br />
               <span className="text-turquoise-500">w każdym</span> <br />
               kęsie.
@@ -225,7 +225,7 @@ export default function App() {
             <div className="w-12 h-12 rounded-full border-2 border-turquoise-500 p-1">
               <img src="https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/302094386_497028972428371_3260659726051270388_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=F7Q-_LXQnQcQ7kNvwGgUOJn&_nc_oc=Adr1018wH94xMeOpGNi_Od200bO_KRW5MHVJwXruv6sQlBcl8V28SVlW-tYjLkcNN7w&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=nw5C-HecaZ8ZYXgF-PwIig&_nc_ss=7b2a8&oh=00_Af2ViSVQZvR8SvoJuqvqqnhq4EfHypnWxgDaL5IM9gBsXg&oe=69F7C0B0" alt="Logo" className="w-full h-full object-cover rounded-full" />
             </div>
-            <span className="font-brand text-4xl font-bold tracking-tight text-turquoise-400">Lodo Sfera</span>
+            <span className="font-serif text-3xl font-black tracking-tight text-turquoise-600">Lodo Sfera</span>
           </div>
           <div className="flex flex-wrap justify-center gap-12 text-slate-400 font-bold uppercase text-xs tracking-widest">
             <a href="#menu" className="hover:text-white transition-colors">Specjały</a>
