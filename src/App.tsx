@@ -78,18 +78,18 @@ export default function App() {
       </nav>
 
       {/* Hero */}
-      <section className="pt-48 pb-24 px-6 relative overflow-hidden">
+      <section className="pt-32 sm:pt-48 pb-24 px-6 relative overflow-hidden">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 relative z-10">
           <div className="flex-1 text-center lg:text-left space-y-8">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="inline-block px-4 py-2 bg-turquoise-100 rounded-full text-turquoise-700 text-xs font-bold uppercase tracking-widest">
               🍦 Najlepsza lodziarnia w Starachowicach
             </motion.div>
-            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="font-serif text-7xl md:text-9xl font-black text-slate-900 leading-[0.85] tracking-tighter">
+            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="font-brand text-6xl sm:text-7xl md:text-9xl font-black text-slate-900 leading-[0.85] tracking-tighter">
               Orzeźwienie <br />
               <span className="text-turquoise-500">w każdym</span> <br />
               kęsie.
             </motion.h1>
-            <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="text-lg text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
+            <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="text-base sm:text-lg text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
               Od puszystych lodów tajskich po klasyczne włoskie espresso. Lodo Sfera to Twoja codzienna porcja słodkiej przyjemności.
             </motion.p>
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
@@ -175,10 +175,10 @@ export default function App() {
                   { icon: <Clock />, label: "Godziny", value: "Codziennie 11:00 - 18:00" },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-6 items-center group">
-                    <div className="w-12 h-12 bg-turquoise-50 rounded-2xl text-turquoise-600 flex items-center justify-center group-hover:bg-turquoise-600 group-hover:text-white transition-all">{item.icon}</div>
-                    <div>
+                    <div className="w-12 h-12 bg-turquoise-50 rounded-2xl text-turquoise-600 flex items-center justify-center group-hover:bg-turquoise-600 group-hover:text-white transition-all shrink-0">{item.icon}</div>
+                    <div className="min-w-0 flex-1">
                       <p className="text-xs font-black uppercase text-slate-400 tracking-widest mb-1">{item.label}</p>
-                      <p className="text-lg font-bold text-slate-800">{item.value}</p>
+                      <p className="text-base sm:text-lg font-bold text-slate-800 break-all">{item.value}</p>
                     </div>
                   </div>
                 ))}
