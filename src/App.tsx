@@ -30,12 +30,12 @@ const MENU_ITEMS = [
 ];
 
 const GALLERY = [
-  { url: "https://scontent-waw2-2.xx.fbcdn.net/v/t51.82787-15/527171856_18130934140451835_6278678454734526146_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=lro1j5TIMW0Q7kNvwHh4fL_&_nc_oc=Adr17ISxbnifJJE3ZWLBW_OL4BPsyDNsSU_icpwhfWkA5S6xWbQDmmWvKhxv3N4nGt4&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=H3rNC59fl2-tjDsRNFHkRQ&_nc_ss=7b2a8&oh=00_Af3MOQrYoZ6SRxY5AW6Y46p88Klf11zsbjkJBRmb3kMxaQ&oe=69F7C838", description: "Pucharek z owocami" },
-  { url: "https://scontent-waw2-1.xx.fbcdn.net/v/t51.82787-15/527106011_18130652299451835_733707689853448097_n.jpg?stp=dst-jpegr_tt6&_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=aNrJ1m5YtHkQ7kNvwEcg5sG&_nc_oc=AdryLT_sckyn__F78W_Fl0SbqsCB4j-7PBqKuM9LsVVeqk-5-VpUteJCGn6sC813gYQ&_nc_zt=23&se=-1&_nc_ht=scontent-waw2-1.xx&_nc_gid=_wU3qRefiWOZaMScQsWD6Q&_nc_ss=7b2a8&oh=00_Af3G8ePQrgU7RTsKYdxy0_oF473_bT-XLj2l96fombh9zA&oe=69F7CB19", description: "Pyszna Matcha" },
-  { url: "https://scontent-waw2-1.xx.fbcdn.net/v/t51.82787-15/522573996_18129839899451835_8141117075417104848_n.jpg?stp=dst-jpegr_tt6&_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_ohc=xq_ZDswp2z4Q7kNvwEJjTgz&_nc_oc=AdqXlhtesCg8C71bug4TcfkoZ-2d27k9acE_3Z-PLlpSVMQqvO0hkqn7X3qOX-GqmhY&_nc_zt=23&se=-1&_nc_ht=scontent-waw2-1.xx&_nc_gid=ZhX1fNctieJXV51ooqoC4Q&_nc_ss=7b2a8&oh=00_Af2-DH5dDCa2h9F42rCRI8irdhxPf4Q4qxa_0SFM9KZ1uw&oe=69F7CFBD", description: "Matcha Mango" },
-  { url: "https://scontent-waw2-1.xx.fbcdn.net/v/t51.75761-15/509621503_18127692679451835_4698089871479359306_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=13d280&_nc_ohc=e3p8cuXSN-QQ7kNvwEo_Dsa&_nc_oc=AdpklU298kNt3AzLEpbuRN94N76lbMMWm4Uj7VEfEjzZZhg018eVdw4rq1PFlRPjSNc&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=lgWlT3l_vm-wIr929UaxQw&_nc_ss=7b2a8&oh=00_Af3r2UeybhZuy1Fw2NSQQdszh5qOw7JwryA0i6TM_qQguw&oe=69F7AFA6", description: "Świeży sok" },
-  { url: "https://scontent-waw2-2.xx.fbcdn.net/v/t51.75761-15/503555113_18127232119451835_3562902207556464022_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_ohc=RtrQS-48nUQQ7kNvwFT6Y6c&_nc_oc=AdrwZMp0NHcGPmtmMMJsOC9ATEfpiLcVkVgPHvkDXrT7fE27KAdNwyDm_59JZinB1oA&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=wkhwYQajygN2ypYSaKjstQ&_nc_ss=7b2a8&oh=00_Af0hz2hBVd36ENyxbN24bljlLb7T8k8XLs3VX9630ub9Ag&oe=69F7C83F", description: "Lody Tajskie Pistacja" },
-  { url: "https://scontent-waw2-1.xx.fbcdn.net/v/t51.82787-15/524169637_18130202911451835_2372547233053760577_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=xExhrlazAokQ7kNvwE0CGW-&_nc_oc=Adpl_HKOX6Ad6bfpSQ8m26XPicJTZZBGr2SzsNUOHt9dweGsA6NuXeMu7WFSD9ZiwYE&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=vwIOjrvP5t_4C_-Ymf2vDg&_nc_ss=7b2a8&oh=00_Af2MqoUqlX5oujzSyMyyVYr2ECGgYhB20y6YA7ZTvKQGeg&oe=69F7B8A1", description: "Nasze kolorowe desery" }
+  { url: "https://iili.io/BQAo8jp.md.jpg", description: "pucharek z owocami" },
+  { url: "https://iili.io/BQAxd8b.md.jpg", description: "lody tajskie pistacja" },
+  { url: "https://iili.io/BQAoETQ.md.jpg", description: "pyszna matchaaaaa" },
+  { url: "https://iili.io/BQAoeyv.md.jpg", description: "matcha mango" },
+  { url: "https://iili.io/BQAoSZN.md.jpg", description: "świeży sok" },
+  { url: "https://iili.io/BQAoyP9.md.jpg", description: "lody tajskie" }
 ];
 
 const FeatureCard = ({ title, description, icon, delay = 0 }: any) => (
@@ -61,7 +61,7 @@ export default function App() {
         <div className="bg-white/70 backdrop-blur-xl border border-white/50 rounded-full px-8 py-4 shadow-xl flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-turquoise-500 overflow-hidden shadow-lg shadow-turquoise-200">
-              <img src="https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/302094386_497028972428371_3260659726051270388_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=F7Q-_LXQnQcQ7kNvwGgUOJn&_nc_oc=Adr1018wH94xMeOpGNi_Od200bO_KRW5MHVJwXruv6sQlBcl8V28SVlW-tYjLkcNN7w&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=nw5C-HecaZ8ZYXgF-PwIig&_nc_ss=7b2a8&oh=00_Af2ViSVQZvR8SvoJuqvqqnhq4EfHypnWxgDaL5IM9gBsXg&oe=69F7C0B0" alt="Logo" className="w-full h-full object-cover" />
+              <img src="/src/assets/images/regenerated_image_1777898810975.jpg" alt="Logo" className="w-full h-full object-cover" />
             </div>
             <span className="font-serif text-xl font-black text-turquoise-700 tracking-tight">Lodo Sfera</span>
           </div>
@@ -99,7 +99,7 @@ export default function App() {
           </div>
           <div className="flex-1 relative">
             <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} className="relative z-10 rounded-5xl overflow-hidden shadow-2xl border-2 border-white transform rotate-2">
-              <img src="https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/470023514_18108486208451835_2338514812580410372_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=13d280&_nc_ohc=tg_A11LNr6IQ7kNvwHWKhAP&_nc_oc=AdqlAdUC115F0ZmWhb-niqJrVPws56tfdoMAsHRlp0baFUFoIwGlTep2qjAGudzo2Ts&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=z8IGk__DCDhqizWEi7u2KQ&_nc_ss=7b2a8&oh=00_Af0ZKFlN7Z8FNp_dSi-pEzsbUS_iEfZJel4H00xXA09Hrw&oe=69F7C2F2" alt="Hero" className="w-full h-[600px] object-cover" />
+              <img src="/src/assets/images/regenerated_image_1777898727020.jpg" alt="Hero" className="w-full h-[600px] object-cover" />
             </motion.div>
             <div className="absolute -top-10 -right-10 w-64 h-64 bg-turquoise-300 rounded-full blur-[100px] opacity-30 animate-pulse" />
             <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-sky-300 rounded-full blur-[100px] opacity-30 animate-pulse delay-700" />
@@ -223,7 +223,7 @@ export default function App() {
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="flex items-center justify-center gap-4">
             <div className="w-12 h-12 rounded-full border-2 border-turquoise-500 p-1">
-              <img src="https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/302094386_497028972428371_3260659726051270388_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=F7Q-_LXQnQcQ7kNvwGgUOJn&_nc_oc=Adr1018wH94xMeOpGNi_Od200bO_KRW5MHVJwXruv6sQlBcl8V28SVlW-tYjLkcNN7w&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=nw5C-HecaZ8ZYXgF-PwIig&_nc_ss=7b2a8&oh=00_Af2ViSVQZvR8SvoJuqvqqnhq4EfHypnWxgDaL5IM9gBsXg&oe=69F7C0B0" alt="Logo" className="w-full h-full object-cover rounded-full" />
+              <img src="/src/assets/images/regenerated_image_1777898810975.jpg" alt="Logo" className="w-full h-full object-cover rounded-full" />
             </div>
             <span className="font-serif text-3xl font-black tracking-tight text-turquoise-600">Lodo Sfera</span>
           </div>
